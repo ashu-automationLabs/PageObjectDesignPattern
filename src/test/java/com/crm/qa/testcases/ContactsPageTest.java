@@ -90,6 +90,13 @@ public void validateCreateNewContact(String title,String Fname,String LName,Stri
 }
 
 
+@Test(priority=5)
+public void displayErrorMessage() 
+{
+	
+System.out.println("Displaying Error message");
+}
+
 @AfterMethod
 public void tearDown() 
 {
